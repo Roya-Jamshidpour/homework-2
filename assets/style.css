@@ -1,0 +1,77 @@
+* {margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+    
+    }
+
+/* navbar */
+    .navbar-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        overflow: hidden;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        color: #ffffff;
+        }
+    
+        header {
+        background-color: #f3d943;
+        }
+  
+/* my name in header */
+h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    }
+
+    /* contact links in navbar */
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding-left: 20px;
+}
+
+ /* unvisited link */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ /* mouse over link */
+a:hover {
+    color: rgb(141, 1, 1);
+    
+}
+
+#face-circle {
+    margin: 0px 30px 30px 30px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    outline-width: 10px;
+    outline-color: black;
+    outline-style: double;
+    outline-offset: 5px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
