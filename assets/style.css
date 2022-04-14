@@ -6,24 +6,24 @@
     list-style: none;
     
     }
-
-/*header block*/
+/* Header Block fixed */
     .roya {
         display: flex;
         justify-content: center;
-        overflow: hidden;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: #ffffff;
+        position: sticky;
+        top: 0;
+        font-family: 'Poiret One', cursive;
         }
     
         header {
         background-color: #d8b61d;
+        overflow: hidden;
         }
   
 /* my name in header */
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 300%;
+    font-size: 400%;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #ffffff;
@@ -69,24 +69,49 @@ h3 {
     height: auto;
 }
 
+/* info blocks */
 .block {
-    float: left;
-    background-color: rgb(223, 221, 221);
-    height: 200px;
-    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(243, 243, 243);
+    height: 400px;
+    width: auto;
+    padding: 15px 15px;
+    margin: 30px 30px;
+}
+
+/* font for title */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/* title text in block */
+.title {
+    color: rgb(141, 1, 1);
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    
 }
 
 
+/* descriptive text in block */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    display: flex;
+    align-self: flex-end;
+}
 
 
-
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width : 320px) {
-    /* Styles */
-    body head {
-    display: flex; 
-    flex: wrap;
-    }
+/* for mobile phones */
+@media only screen and (max-width: 320px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: column;
+        width: 100%;
+      }
 }
