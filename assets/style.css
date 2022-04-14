@@ -3,51 +3,51 @@
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
     list-style: none;
     
     }
 
-/* navbar */
-    .navbar-box {
+/*header block*/
+    .roya {
         display: flex;
-        justify-content: space-between;
-        padding: 30px;
+        justify-content: center;
         overflow: hidden;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
         color: #ffffff;
         }
     
         header {
-        background-color: #f3d943;
+        background-color: #d8b61d;
         }
   
 /* my name in header */
 h1 {
-    display: flex;
-    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
     }
 
     /* contact links in navbar */
-ul {
+h2 {
     list-style: none;
     display: flex;
-    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
 }
 
 li {
-    padding-left: 20px;
+    display: inline-block;
+    padding: 0px 20px;
 }
 
  /* unvisited link */
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -57,21 +57,36 @@ a:hover {
     
 }
 
-#face-circle {
-    margin: 0px 30px 30px 30px;
-    display: inline-block;
-    justify-content: center;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    outline-width: 10px;
-    outline-color: black;
-    outline-style: double;
-    outline-offset: 5px;
-}
-
-h2 {
+/* my face image section */
+h3 {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
 
+/* image of me */
+.me {
+    width: 600px;
+    height: auto;
+}
+
+.block {
+    float: left;
+    background-color: rgb(223, 221, 221);
+    height: 200px;
+    width: 700px;
+}
+
+
+
+
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width : 320px) {
+    /* Styles */
+    body head {
+    display: flex; 
+    flex: wrap;
+    }
+}
