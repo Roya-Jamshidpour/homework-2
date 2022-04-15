@@ -61,6 +61,7 @@ a:hover {
 h3 {
     display: flex;
     justify-content: center;  
+    padding-bottom: 20px;
 }
 
 /* image of me */
@@ -92,7 +93,7 @@ h3 {
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    margin: 20px;
+    margin: 10px;
     
 }
 
@@ -103,15 +104,47 @@ p {
     margin: 20px;
     display: flex;
     align-self: flex-end;
+    
 }
 
 
 /* for mobile phones */
-@media only screen and (max-width: 320px) {
-    body{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: column;
-        width: 100%;
+@media screen and (max-width: 560px) and (min-width: 320px){
+    .block div img body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px 5px;
+    }
+  }
+
+  /* navbar text shrinks */
+  @media screen and (max-width: 480px) and (min-width: 320px){
+      h2 {
+          font-size: 10px;
       }
-}
+    }
+
+    /* my image at top shrinks */
+  @media screen and (max-width: 480px) and (min-width: 320px){
+      .me {
+          max-width: 260px;
+      }
+    }  
+
+    /* my name header text shrinks */
+    @media screen and (max-width: 480px) and (min-width: 320px){
+      .roya {
+          font-size: 10px;
+      }
+
+      /*  */
+      @media screen and (max-width: 480px) and (min-width: 320px){
+        p {
+            font-size: 9px;
+            display: flex;
+            align-items: baseline;
+        } 
+    }
+
+      
