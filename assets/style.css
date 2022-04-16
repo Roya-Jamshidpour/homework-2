@@ -73,7 +73,7 @@ h3 {
 /* info blocks */
 .block {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     background-color: rgb(243, 243, 243);
@@ -81,6 +81,16 @@ h3 {
     width: auto;
     padding: 15px 15px;
     margin: 40px;
+}
+
+/* when you hover over an image it enlarges */
+.thumbnail:hover {
+    position:relative;
+    top:-5px;
+    left:-5px;
+    width:220px;
+    height:auto;
+    display:block;
 }
 
 .contact-links {
