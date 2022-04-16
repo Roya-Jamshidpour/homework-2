@@ -8,4 +8,4 @@ Personal Portfolio
 ## Description
 ### This is a portfolio for potential empoyers to peruse some general information about me as well as examples of my previous work. 
 
-### Link to my portfolio: 
+### <a href="https://roya-jamshidpour.github.io/homework-2/">Click to go to my live portfolio!</a>
