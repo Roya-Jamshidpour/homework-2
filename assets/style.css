@@ -206,7 +206,7 @@ p {
         /* for larger iphones and ipads */
 
         /* info blocks orient as columns */
-    @media only screen and (min-device-width: 560px) and (max-device-width: 812px){
+    @media only screen and (min-device-width: 481px) and (max-device-width: 812px){
         .block {
             display: flex;
             flex-wrap: wrap;
@@ -217,8 +217,8 @@ p {
     }
    
      /* my image at top shrinks */
-     @media only screen and (min-device-width: 560px) and (max-device-width: 812px){
+     @media only screen and (min-device-width: 481px) and (max-device-width: 812px){
     .me {
-        max-width: 560px;
+        max-width: 481px;
     }
   }  
