@@ -167,6 +167,10 @@ p {
     align-items: center;
     }
 
+    .top-links {
+        flex-direction: row;
+    }
+
     .block {
       width: 300px;
       height: fit-content;
