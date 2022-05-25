@@ -170,7 +170,7 @@ p {
 /* for mobile phones */
 
 /* info blocks orient as columns */
-@media screen and (max-width: 560px) and (min-width: 320px){
+@media screen and (max-width: 560px) and (min-width: 320px) and (hover:none) {
 
     * { 
     display: flex;
