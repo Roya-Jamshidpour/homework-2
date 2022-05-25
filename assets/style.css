@@ -85,7 +85,6 @@ h3 {
 
 .block:hover {
     box-shadow: 0 0 20px rgba(2, 2, 2, 0.2);
-    cursor: pointer;
     position: relative;
     top: -5px;
     left: -5px;
@@ -106,6 +105,7 @@ width: auto;
     height:220px;
     width: auto;
     display:block;
+    cursor: pointer;
 }
 
 .contact-links {
