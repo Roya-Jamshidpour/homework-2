@@ -164,7 +164,7 @@ p {
     margin: 0px;
     display: flex;
     text-align: left;
-    padding: 10px;
+    padding: 10px 10px;
 }
 
 
@@ -178,6 +178,7 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     
     }
 
@@ -185,10 +186,12 @@ p {
       width: 300px;
       height: fit-content;
       display: flex;
+      align-items: center;
       flex-wrap: wrap;
       justify-content: center;
       flex-direction: column;
-      padding: 5px 5px;
+      padding-left: 10px;
+      padding-right: 10px;
       margin: 5px 5px;
     }
 /* navbar text shrinks */
@@ -201,16 +204,17 @@ p {
     max-width: 260px;
 }
  /* my name header text shrinks */
-   
  .roya {
     font-size: 10px;
     width: 100%;
 }
 /* text in boxes */
 p {
-    font-size: 11px;
+    width: 280px;
+    font-size: 9px;
     display: flex;
     align-items: baseline;
+    word-wrap: break-word;
 } 
 
 /* images in work history blocks */
