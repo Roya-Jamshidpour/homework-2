@@ -4,6 +4,7 @@
 	font-size: 100%;
 	font: inherit;
     list-style: none;
+    width: 100%;
     
     }
 /* Header Block fixed */
@@ -14,6 +15,7 @@
         position: sticky;
         top: 0;
         font-family: 'Poiret One', cursive;
+        width: 100%;
         }
     
         header {
@@ -157,70 +159,79 @@ p {
 
 /* info blocks orient as columns */
 @media screen and (max-width: 560px) and (min-width: 320px){
+
+    * { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
     .block {
+      width: 300px;
+      height: fit-content;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       flex-direction: column;
       padding: 5px 5px;
+      margin: 5px 5px;
     }
-  }
-
-  /* navbar text shrinks */
-  @media screen and (max-width: 480px) and (min-width: 320px){
-      h2 {
-          font-size: 10px;
-      }
+/* navbar text shrinks */
+    h2 {
+        font-size: 10px;
     }
 
-    /* my image at top shrinks */
-  @media screen and (max-width: 480px) and (min-width: 320px){
-      .me {
-          max-width: 260px;
-      }
-    }  
+   /* my image at top shrinks */
+   .me {
+    max-width: 260px;
+}
+ /* my name header text shrinks */
+   
+ .roya {
+    font-size: 10px;
+    width: 100%;
+}
+/* text in boxes */
+p {
+    font-size: 11px;
+    display: flex;
+    align-items: baseline;
+} 
 
-    /* my name header text shrinks */
-    @media screen and (max-width: 480px) and (min-width: 320px){
-      .roya {
-          font-size: 10px;
-      }
-    }
+/* images in work history blocks */
+.thumbnail {
+    width: 200px;
+    height: auto;
+}
 
+/* titles for each section get smaller */
+    
+.title {
+    font-size: 20px;
+    padding: 0;
+}
 
-      /*  */
-      @media screen and (max-width: 480px) and (min-width: 320px){
-        p {
-            font-size: 11px;
-            display: flex;
-            align-items: baseline;
-        } 
-    }
-
-     /* titles for each section get smaller */
-     @media screen and (max-width: 480px) and (min-width: 320px){
-        .title {
-            font-size: 20px;
-        }
-    }
-
-       /* work history section title shrinks size */
-    @media screen and (max-width: 480px) and (min-width: 320px){
-        .work-title {
-            font-size: 24px;
-        }
-    }
+/* work history section title shrinks size */
+.work-title {
+    font-size: 24px;
+}
 
  /* contact links at bottom of page shrink */
-     @media screen and (max-width: 480px) and (min-width: 320px){
-        .contact-links {
-            font-size: 7px;
-        }
-    }
+ .contact-links {
+    font-size: 7px;
+    padding: 10px;
+}
 
-        /* for larger iphones and ipads */
+.link-list {
+    flex-direction: row;
+}
 
-        /* info blocks orient as columns */
+  }
+
+    /* for larger iphones and ipads */
+
+     /* info blocks orient as columns */
     @media only screen and (min-device-width: 481px) and (max-device-width: 812px){
         .block {
             display: flex;
@@ -229,11 +240,9 @@ p {
             flex-direction: column;
             padding: 5px 5px;
         }
-    }
-   
-     /* my image at top shrinks */
-     @media only screen and (min-device-width: 481px) and (max-device-width: 812px){
-    .me {
-        max-width: 481px;
+
+        /* my image at top shrinks */
+        .me {
+            max-width: 481px;
     }
   }  
