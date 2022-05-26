@@ -1,11 +1,94 @@
- * {
-    margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-    list-style: none;
-    }
+/* http://meyerweb.com/eric/tools/css/reset/     
+   v2.0 | 20110126    
+   License: none (public domain) */
+   html,
+   body,
+   div,
+   span,
+   applet,
+   object,
+   iframe,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p,
+   blockquote,
+   pre,
+   a,
+   abbr,
+   acronym,
+   address,
+   big,
+   cite,
+   code,
+   del,
+   dfn,
+   em,
+   img,
+   ins,
+   kbd,
+   q,
+   s,
+   samp,
+   small,
+   strike,
+   strong,
+   sub,
+   sup,
+   tt,
+   var,
+   b,
+   u,
+   i,
+   center,
+   dl,
+   dt,
+   dd,
+   ol,
+   ul,
+   li,
+   fieldset,
+   form,
+   label,
+   legend,
+   table,
+   caption,
+   tbody,
+   tfoot,
+   thead,
+   tr,
+   th,
+   td,
+   article,
+   aside,
+   canvas,
+   details,
+   embed,
+   figure,
+   figcaption,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   output,
+   ruby,
+   section,
+   summary,
+   time,
+   mark,
+   audio,
+   video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     list-style: none;
+   }
 
 /* Header Block fixed */
     .roya {
@@ -174,13 +257,19 @@ p {
 } 
 
 /* for mobile phones */
-@media screen and (max-width: 560px) and (min-width: 320px){
+@media (max-width: 480px) {
 
     * { 
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    }
+
+    h3 {
+        max-width: 300px;
     }
 
     .block {
@@ -201,7 +290,7 @@ p {
     }
 
    /* my image at top shrinks */
-   .me {
+  h3 .me {
     max-width: 260px;
 }
  /* my name header text shrinks */
@@ -212,6 +301,9 @@ p {
 
 header {
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 /* text in boxes */
@@ -252,7 +344,7 @@ p {
     /* for larger iphones and ipads */
 
      /* info blocks orient as columns */
-    @media only screen and (min-device-width: 481px) and (max-device-width: 812px){
+     @media (max-width: 768px) {
 
         * { 
             display: flex;
@@ -260,6 +352,10 @@ p {
             flex-direction: column;
             align-items: center;
             }
+        header {
+            width: 100%;
+            height: auto;
+        }     
 
         .block {
             display: flex;
