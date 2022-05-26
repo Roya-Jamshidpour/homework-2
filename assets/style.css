@@ -91,7 +91,9 @@
    }
 
 /* Header Block fixed */
-    .roya {
+        header, .roya {
+        background-color: #d8b61d;
+        overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -99,11 +101,6 @@
         position: sticky;
         top: 0;
         font-family: 'Poiret One', cursive;
-        }
-    
-        header {
-        background-color: #d8b61d;
-        overflow: hidden;
         height: 100px;
         width: 100%;
         }
@@ -298,7 +295,7 @@ h2, #top, ul, li {
     width: 100%;
 }
 
-header {
+header, .roya {
     width: 100%;
     height: auto;
     display: flex;
