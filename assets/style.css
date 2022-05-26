@@ -112,9 +112,6 @@ h1 {
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     }
 
     /* contact links in navbar */
@@ -348,22 +345,91 @@ p {
             justify-content: center;
             flex-direction: column;
             align-items: center;
+            margin: 0;
+            padding: 0;
             }
-        header {
+        
+            .block {
+              width: 460px;
+              height: fit-content;
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              justify-content: center;
+              flex-direction: column;
+              padding-left: 10px;
+              padding-right: 10px;
+              margin: 5px 5px;
+            }
+        
+        /* navbar */
+              /* contact links in navbar */
+        h2, #top, ul, li {
+            display: flex;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+           
+        }
+            a {
+                font-size: 12px;
+            }
+        
+           /* my image at top shrinks */
+          h3 .me {
+            width: 400px;
+            height: auto;
+        }
+         /* my name header text shrinks */
+         .roya, h1 {
+            font-size: 40px;
+            width: 100%;
+        }
+        
+        header, .roya {
             width: 100%;
             height: auto;
-        }     
-
-        .block {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: column;
-            padding: 5px 5px;
+            flex-direction: row;
+            padding: 15px;
         }
-
-        /* my image at top shrinks */
-        .me {
-            max-width: 481px;
-    }
-  }  
+        
+        /* text in boxes */
+        p {
+            width: 280px;
+            font-size: 9px;
+            display: flex;
+            align-items: baseline;
+            word-wrap: break-word;
+        } 
+        
+        /* images in work history blocks */
+        .thumbnail {
+            width: 200px;
+            height: auto;
+        }
+        
+        /* titles for each section get smaller */
+            
+        .title {
+            font-size: 20px;
+            padding-bottom: 8px;
+        }
+        
+        /* work history section title shrinks size */
+        .work-title {
+            font-size: 24px;
+        }
+        
+         /* contact links at bottom of page shrink */
+         .contact-links {
+            font-size: 7px;
+            padding: 10px;
+        }
+        
+          }
