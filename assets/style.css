@@ -88,7 +88,6 @@
      font-size: 100%;
      font: inherit;
      list-style: none;
-     width: 100%;
    }
 
 /* Header Block fixed */
@@ -103,7 +102,7 @@
         top: 0;
         font-family: 'Poiret One', cursive;
         height: 100px;
-        
+        width: 100%;
         }
   
 /* my name in header */
@@ -250,7 +249,6 @@ p {
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 100%;
     }
 
     .block {
@@ -349,7 +347,6 @@ p {
             align-items: center;
             margin: 0;
             padding: 0;
-            width: 100%;
             }
         
             .block {
@@ -446,7 +443,6 @@ p {
             align-items: center;
             margin: 0;
             padding: 0;
-            width: 100%;
             }
         
             .block {
