@@ -121,28 +121,17 @@ h1 {
     }
 
     /* contact links in navbar */
-h2 {
-    list-style: none;
+h2, #top, ul, li {
     display: flex;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
+    padding: 20px;
    
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-
-li {
-    padding-left: 50px;
 }
 
  /* unvisited link */
@@ -282,18 +271,19 @@ p {
     }
 
 /* navbar */
-    h2 #top {
-        
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        padding: 0;
-    }
-
-    li {
-        padding-left: 13px;
-    }
-
+      /* contact links in navbar */
+h2, #top, ul, li {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+   
+}
     a {
         font-size: 8px;
     }
@@ -303,8 +293,8 @@ p {
     max-width: 260px;
 }
  /* my name header text shrinks */
- .roya {
-    font-size: 10px;
+ .roya, h1 {
+    font-size: 30px;
     width: 100%;
 }
 
