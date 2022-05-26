@@ -401,8 +401,8 @@ p {
         
         /* text in boxes */
         p {
-            width: 280px;
-            font-size: 9px;
+            width: 440px;
+            font-size: 12px;
             display: flex;
             align-items: baseline;
             word-wrap: break-word;
@@ -506,11 +506,12 @@ p {
         
         /* images in work history blocks */
         .thumbnail {
-            width: 300px;
+            width: 200px;
             height: auto;
         }
         
         /* titles for each section get smaller */
+            
         .title {
             font-size: 20px;
             padding-bottom: 8px;
